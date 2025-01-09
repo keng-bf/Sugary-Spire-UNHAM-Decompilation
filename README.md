@@ -11,7 +11,7 @@ GameMaker Version Used: ```2023.8```
 ## Current Progress
 Game is very Playable
 
-Things I have Done:
+### Things I have Done:
 - Organized the entire Project
 - Added Enums for Player States, Enemy States, Confetti States, and even the Menus
 - Removed duplicated room code
