@@ -19,7 +19,7 @@ function scr_enemy_punkattack()
             image_index = 0;
             sprite_index = spr_candycorn;
             hsp = 5 * image_xscale;
-            state = states.slap;
+            state = baddiestates.walk;
             scr_sound(sound_suplex1);
         }
         else

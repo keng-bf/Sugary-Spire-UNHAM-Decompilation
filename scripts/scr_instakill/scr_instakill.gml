@@ -6,7 +6,7 @@ function scr_instakill()
             exit;
     }
     
-    if (other.baddieID.state == states.meteorpep)
+    if (other.baddieID.state == baddiestates.prepdead)
         exit;
     
     var hx = other.baddieID.x;
@@ -57,7 +57,7 @@ function scr_instakill()
     hitX = x;
     hitY = y;
     other.baddieID.alarm[3] = 3;
-    other.baddieID.state = states.meteorpep;
+    other.baddieID.state = baddiestates.prepdead;
     other.baddieID.image_xscale = -xscale;
     instance_create(other.baddieID.x, other.baddieID.y, obj_parryeffect);
     

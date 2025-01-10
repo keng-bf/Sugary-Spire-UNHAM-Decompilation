@@ -5,7 +5,7 @@ function scr_enemy_witchattack()
     if (animation_end())
     {
         instance_destroy(obj_cottonwitch_attackhitbox);
-        state = states.slap;
+        state = baddiestates.walk;
         sprite_index = spr_cottonwitch_walk;
         image_index = 0;
         waitbuffer = 10;

@@ -33,7 +33,7 @@ function scr_enemy_prepdead()
         alarm[1] = 5;
         instance_destroy();
         stunned = 200;
-        state = states.cheeseball;
+        state = baddiestates.stun;
         
         if (obj_player.tauntstoredstate != states.punch && obj_player.tauntstoredstate != states.freefall && obj_player.tauntstoredstate != states.superslam)
         {
@@ -59,7 +59,7 @@ function scr_enemy_prepdead()
             hsp = hithsp;
             vsp = hitvsp;
             flash = false;
-            state = states.cheeseball;
+            state = baddiestates.stun;
             thrown = true;
         }
         
