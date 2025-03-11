@@ -7,7 +7,7 @@ if (image_alpha != 0.5)
         instance_create(x + (sprite_width / 2), y + (sprite_height / 2), obj_cloudeffect);
         
         repeat (3)
-            instance_create(x + (sprite_width / 2) + random_range(-5, 5), y + (sprite_height / 2) + random_range(-5, obj_ridetest3), obj_cloudeffect);
+            instance_create(x + (sprite_width / 2) + random_range(-5, 5), y + (sprite_height / 2) + random_range(-5, 5), obj_cloudeffect);
         
         collectvanish = false;
         in_the_void = false;
